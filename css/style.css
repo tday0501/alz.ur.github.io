@@ -10,7 +10,6 @@ body {
   font-weight: 300;
   line-height: 20px;
   letter-spacing: 1%;
-  overflow-x: hidden;
   margin: 0 auto;
   padding: 0;
   -moz-box-sizing: border-box;
@@ -104,7 +103,7 @@ p {
 
 .paddsection {
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 
 .paddsections {
@@ -123,6 +122,7 @@ p {
     position: relative;
     text-align: center;
     margin: 5%;
+    padding-top: -4%;
 }
 
 .ur{
@@ -151,7 +151,7 @@ nav {
 }
 
 nav ul li {
-  float: left;
+  float: right;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   margin-left: 5%;
@@ -194,8 +194,7 @@ nav ul li a {
     position: 
     left: 0;
     bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
+    width: 100%;
 }
 
 
@@ -206,6 +205,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  vertical-align: middle
 }
 
 .header-content h1 {
@@ -215,7 +215,7 @@ nav ul li a {
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
-    text-align: center;
+  text-align: center;
 }
 
 
@@ -226,16 +226,15 @@ nav ul li a {
 
 #about {
   position: relative;
-  height: 250px;
   background: #BA63CF;
-  max-width: 100%;
-  max-height: 100%
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .about-descr {
   position: relative;
   font-size: 28px;
-  max-width: 100%;
+  min-width: 100%;
   padding: 3%;
 }
 
@@ -251,11 +250,8 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #portfolio {
-  position: relative;
-  padding-bottom: 5%;
+  background-color: #ffffff;
 }
-
-
 
 #join {
     max-height: 100%;
@@ -263,16 +259,17 @@ nav ul li a {
 }
 
 .btn_j {
-    position: relative;
-    top: 60px;
     border: 2px solid #BA63CF;
     padding: 20px 30px;
     
 }
-
+.buttons {
+    margin-bottom: 4%
+}
 .buttons a{
-    display: inline;
-    text-decoration: none;
+    position: relative;
+    top: 70px;
+    text-align: center;
     margin: 2%;
 }
 .btn_j:hover, .btn_j:focus {
@@ -282,8 +279,6 @@ nav ul li a {
 }
 
 .btn_d {
-    position: relative;
-    top: 60px;
     border: 2px solid #FCA400;
     padding: 20px 35px;
 }
@@ -301,7 +296,10 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
- margin-bottom: -4%
+  margin-top: -6%;
+  padding-top: 12%;
+  margin-bottom: -4%;
+  background-color: #ffffff;
 }
 
 
