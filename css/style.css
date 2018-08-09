@@ -180,9 +180,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: black;
-  height: 100vh;
-  width: 100%;
+    position: relative;
 }
 
 .home {
@@ -192,13 +190,10 @@ nav ul li a {
 #myVideo {
     position: relative;
     width: 100%;
-    min-width: 320px; 
-    overflow-y: hidden;
+    min-width: 320px;
 }
 
-
 #header .header-content {
-  height: 100vh;
   text-align: left;
   width: 100%;
   display: flex;
@@ -217,23 +212,19 @@ nav ul li a {
   text-align: center;
 }
 
-
-
-/*-----------------------------------------------------------------------------------*/
 /*  Aout-us
 /*-----------------------------------------------------------------------------------*/
 
 #about {
-  position: absolute;
   background: #BA63CF;
   min-width: 320px;
+  position: relative;
+  bottom: 5px;
 }
 
 .about-descr {
-  position: relative;
   font-size: 28px;
-  min-width: 100%;
-  padding: 3%;
+  padding: 4%;
 }
 
 .intro {
