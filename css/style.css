@@ -203,7 +203,7 @@ nav ul li a {
   justify-content: center;
   flex-direction: column;
   vertical-align: middle;
-  min-width: 700px;
+  min-width: 320px;
 }
 
 .header-content h1 {
