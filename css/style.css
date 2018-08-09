@@ -301,6 +301,7 @@ nav ul li a {
   padding-top: 12%;
   margin-bottom: -4%;
   background-color: #ffffff;
+  min-height: 150px;
 }
 
 
