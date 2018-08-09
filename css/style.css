@@ -253,7 +253,7 @@ nav ul li a {
 }
 #myVideo {
     position: 
-    right: 0;
+    left: 0;
     bottom: 0;
     min-width: 100%; 
     min-height: 100%;
@@ -288,9 +288,10 @@ nav ul li a {
 
 #about {
   position: relative;
-  height: 230px;
+  height: 250px;
   background: #BA63CF;
   max-width: 100%;
+  max-height: 100%
 }
 
 .about-descr {
