@@ -288,16 +288,17 @@ nav ul li a {
 
 #about {
   position: relative;
-  top: 50px;
   height: 230px;
   background: #BA63CF;
+  max-width: 100%;
 }
 
 .about-descr {
   position: relative;
   font-size: 28px;
   max-width: 100%;
-  padding: 10px 60px;
+  padding: 5%;
+  bottom: 25%;
 }
 
 .intro {
