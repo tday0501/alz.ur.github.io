@@ -195,6 +195,10 @@ nav ul li a {
     z-index: -1;
 }
 
+#myVideo:hover {
+    text-decoration: none
+}
+
 #header .header-content {
   text-align: center;
   width: 100%;
