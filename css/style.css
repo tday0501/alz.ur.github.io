@@ -3,7 +3,6 @@
 /*-----------------------------------------------------------------------------------*/
 
 body {
-  background: #ffffff;
   color: #ffffff;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
@@ -18,6 +17,7 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -181,6 +181,8 @@ nav ul li a {
 
 #header {
     position: relative;
+    background-color: #BA63CF;
+
 }
 
 .home {
@@ -188,23 +190,23 @@ nav ul li a {
  
 }
 #myVideo {
-    position: relative;
     width: 100%;
     min-width: 320px;
+    z-index: -1;
 }
 
 #header .header-content {
-  text-align: left;
+  text-align: center;
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   min-width: 320px;
-}
-
-.header-content h1 {
   position: relative;
-  bottom: 130%;
+  bottom:600px
+}
+.h1 header-content{
+  position: relative;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -218,13 +220,12 @@ nav ul li a {
 #about {
   background: #BA63CF;
   min-width: 320px;
-  position: relative;
-  bottom: 5px;
+  
 }
 
 .about-descr {
   font-size: 28px;
-  padding: 4%;
+  padding: 0 4% 4% 4%;
 }
 
 .intro {
@@ -286,7 +287,6 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #contact {
-  height: auto;
   min-width: 320px;
   margin-top: -6%;
   padding-top: 12%;
@@ -305,6 +305,7 @@ nav ul li a {
   padding: 4%;
   min-width: 320px;
   margin-top: 2%;
+  margin-bottom: -4%
 }
 
 #footer p {
