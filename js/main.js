@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Meet John Kammerer", "A Loving husband", "A Loving Brother", "A Loving Uncle", "A Loving Friend", "A Loving Father", "A White Flower"],
+      strings: ["Meet John Kammerer", "A Loving husband", "A Loving Brother", "A Loving Uncle", "A Loving Friend", "A Loving Father", "A Family Man", "A White Flower"],
       typeSpeed: 200,
       loop: true,
     });
