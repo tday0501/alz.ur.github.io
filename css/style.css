@@ -205,9 +205,8 @@ nav ul li a {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  min-width: 320px;
   position: relative;
-  bottom:600px
+  bottom:170px
 }
 .h1 header-content{
   position: relative;

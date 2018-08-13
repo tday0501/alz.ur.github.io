@@ -3,7 +3,10 @@
  */
 
 @media (min-width: 1200px) {
-
+ #header .header-content {
+    position: relative;
+    bottom:600px;
+}
 }
 
 /** Width between 992px to 1199px
@@ -44,6 +47,7 @@
     padding-top: 15px;
     display: block;
   }
+  
   /* About */
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
